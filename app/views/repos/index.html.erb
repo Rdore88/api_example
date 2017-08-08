@@ -1,0 +1,16 @@
+<h1>All repos for rdore88</h1>
+
+<%= @repo["name"] %>
+<%= @repo["description"] %>
+<br>
+<br>
+
+<%= @user["name"] %>
+<%= @user["company"] %>
+<br>
+<br>
+
+<% @repos.each do |repo|%>
+  <%= repo["name"] %>
+  <br>
+<% end %>
